@@ -43,7 +43,7 @@ public class RainbowController {
 
     public void run() throws MalformedURLException {
 
-        String link = "http://r.pl/lanzarote-wyspy-kanaryjskie/labranda-suite-hotel-alyssa/20170815?liczbaDoroslych=2&liczbaDzieci=0&liczbaPokoi=1&wiekDzieci=&wybraneMiastoWyjazdu=Warszawa&wybraneWyzywienie=All+inclusive";
+        String link = "http://r.pl/wyspy-kanaryjskie-fuerteventura/labranda-bahia-de-lobos/20170803?liczbaDoroslych=2&liczbaDzieci=0&liczbaPokoi=1&wiekDzieci=&wybraneMiastoWyjazdu=Katowice&wybraneWyzywienie=All+inclusive";
         String pricesTag = "";
         Map<String, String> prices = new LinkedHashMap<>();
 
@@ -100,7 +100,7 @@ public class RainbowController {
         });
         LOGGER.log(Level.DEBUG, MarkerManager.getMarker("APP"), mail.toString());
 
-        sendEmail(mail.toString());
+//        sendEmail(mail.toString());
 
     }
 
